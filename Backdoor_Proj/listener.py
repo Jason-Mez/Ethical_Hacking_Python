@@ -1,6 +1,6 @@
 import socket
 #Now we are creating our listener.
-#this is on the Linux.
+#this is on the Linux comp
 #This file will be used to listen to incoming connections.
 import listener
 
