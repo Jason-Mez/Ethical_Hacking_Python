@@ -2,7 +2,7 @@ import socket
 #Now we are creating our listener.
 #this is on the Linux.
 #This file will be used to listen to incoming connections.
-import listener
+
 
 listener = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 listener.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1) #Re-using sockets. Re-establis connection.
